@@ -17,4 +17,16 @@ java -jar toc.jar 1     # 为文件夹1内的.md生成目录
 
 ![](https://img-blog.csdnimg.cn/20200926135133550.png)
 
+# 3 如果出现异常
+
+比如：
+
+![](https://img-blog.csdnimg.cn/20200927185029637.png)
+
+请手动编译运行：
+
+```bash
+java -Dfile.encoding=utf-8 -cp markdown.jar Main.java 1.md
+```
+
 
